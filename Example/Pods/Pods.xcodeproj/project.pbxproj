@@ -130,6 +130,13 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>17333DC5B939D37F4421E1FE5CEA3F66</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3E4E89230EF59BC255123B67864ACF77</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>1AD59106F1E794734D433BFC31CE9D28</key>
 		<dict>
 			<key>fileRef</key>
@@ -160,38 +167,6 @@
 			<string>Target Support Files/Pods-MyLogLIb_Example</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>289E1CDC07988D1C3179FFF4F7C8B037</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>5ED3A1BD44CECD7ED76582FB1F3CCCBE</string>
-			<key>buildPhases</key>
-			<array>
-				<string>92EB50D1F9115ADD6283E12768CB4C9E</string>
-				<string>45C99DF9F6224FF46B04A80D99E14A91</string>
-				<string>CB728EBAD155C53E4DB864A785ED2A5D</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>MyLogLIb</string>
-			<key>productName</key>
-			<string>MyLogLIb</string>
-			<key>productReference</key>
-			<string>5335B576DF3C52473FA60CDBB0F51243</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>299B293E67C31D191FC7566632A0BB33</key>
-		<dict>
-			<key>fileRef</key>
-			<string>978BE1BE0CFB2AAADC183C9D645288F1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>2C71C9EF7B1F2D13D3105F4720FBA056</key>
 		<dict>
@@ -246,21 +221,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>32598C3CC84C8EB2245934A03A85FF53</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>A7C6CDB567C11F0A4335F3BC446B6467</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>MyLogLIb</string>
-			<key>path</key>
-			<string>MyLogLIb</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>34500B0D80C995CE25E3E0595BFA2B57</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -311,18 +271,21 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>45C99DF9F6224FF46B04A80D99E14A91</key>
+		<key>433A8724AD25904433884F004AFF74B7</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
+			<key>children</key>
 			<array>
-				<string>5A9C8E83522A9AC95C7C34D756F4B8A6</string>
+				<string>C7E4A812D47474BB28FC57F5D6D39432</string>
+				<string>D4984E4551DC316CB6D65BA473846D04</string>
 			</array>
 			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Classes</string>
+			<key>path</key>
+			<string>Classes</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>45E692F60D9C7130028892EC614EE586</key>
 		<dict>
@@ -333,7 +296,7 @@
 			<key>proxyType</key>
 			<string>1</string>
 			<key>remoteGlobalIDString</key>
-			<string>289E1CDC07988D1C3179FFF4F7C8B037</string>
+			<string>E30F108CA60AA949D7990681B86801E9</string>
 			<key>remoteInfo</key>
 			<string>MyLogLIb</string>
 		</dict>
@@ -350,6 +313,20 @@
 					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>4B4E5309904A60EDFA7FA654493E16F9</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>6764811DA9370A79D497E87AF4949039</string>
+				<string>E65407E4743A1E8D36368A33D8E4CE70</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>4B6EEF389D527D33FD263FE91E1FD072</key>
 		<dict>
@@ -542,26 +519,19 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>5A9C8E83522A9AC95C7C34D756F4B8A6</key>
+		<key>5E7CB95BBB21CBF76217CE6B5658C1EA</key>
 		<dict>
 			<key>fileRef</key>
-			<string>3E4E89230EF59BC255123B67864ACF77</string>
+			<string>5FA510047210A3C17E674FCDABA46DA6</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>5ED3A1BD44CECD7ED76582FB1F3CCCBE</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>6FC30C87C97F37E0CAB7618552E00DFE</string>
-				<string>60DDD80A384492322EE09EE37BC6017E</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>5FA510047210A3C17E674FCDABA46DA6</key>
 		<dict>
@@ -576,62 +546,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>60DDD80A384492322EE09EE37BC6017E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>2C71C9EF7B1F2D13D3105F4720FBA056</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/MyLogLIb/MyLogLIb-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/MyLogLIb/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/MyLogLIb/MyLogLIb.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>PRODUCT_NAME</key>
-				<string>MyLogLIb</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
 		<key>662D62DCE11D018DCE95A14A94B10610</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -644,6 +558,13 @@
 			<string>Pods-MyLogLIb_Example.release.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6764811DA9370A79D497E87AF4949039</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D4984E4551DC316CB6D65BA473846D04</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>6819E5E11721340D7A02D3565E882439</key>
 		<dict>
@@ -711,61 +632,33 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>6FC30C87C97F37E0CAB7618552E00DFE</key>
+		<key>6E4BDAA39F915797B747BEB0F4813B87</key>
 		<dict>
-			<key>baseConfigurationReference</key>
-			<string>2C71C9EF7B1F2D13D3105F4720FBA056</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/MyLogLIb/MyLogLIb-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/MyLogLIb/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/MyLogLIb/MyLogLIb.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>MyLogLIb</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>17333DC5B939D37F4421E1FE5CEA3F66</string>
+			</array>
 			<key>isa</key>
-			<string>XCBuildConfiguration</string>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>7056CB8B2349D3FA6FC42431D53A3B1B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>433A8724AD25904433884F004AFF74B7</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Debug</string>
+			<string>MyLogLIb</string>
+			<key>path</key>
+			<string>MyLogLIb</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>733959391333744138BCC86E250E744B</key>
 		<dict>
@@ -868,7 +761,7 @@
 			<key>name</key>
 			<string>MyLogLIb</string>
 			<key>target</key>
-			<string>289E1CDC07988D1C3179FFF4F7C8B037</string>
+			<string>E30F108CA60AA949D7990681B86801E9</string>
 			<key>targetProxy</key>
 			<string>E4C9E7EFCA8EF121F7EC46A709CDC04A</string>
 		</dict>
@@ -934,20 +827,6 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>8816D6EF2FF2720BCA91576FE13C4225</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5FA510047210A3C17E674FCDABA46DA6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
 		<key>8A79283AC2A14946A8270034B96AB242</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -960,20 +839,6 @@
 			<string>Pods-MyLogLIb_Example-acknowledgements.plist</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>92EB50D1F9115ADD6283E12768CB4C9E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>DE7942543DAB7FE61CC79A70E7660B46</string>
-				<string>299B293E67C31D191FC7566632A0BB33</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
 		</dict>
 		<key>93C149FE58DC2A20E3BBA8EDF790E5A6</key>
 		<dict>
@@ -1048,18 +913,19 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>978BE1BE0CFB2AAADC183C9D645288F1</key>
+		<key>9C79365FA5CC0B421F7178EEF3E48CEC</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>C7E4A812D47474BB28FC57F5D6D39432</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>ReplaceMe.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>9EAFFD4925D6013879B819516EDE5F9D</key>
 		<dict>
@@ -1112,7 +978,7 @@
 			<key>name</key>
 			<string>MyLogLIb</string>
 			<key>target</key>
-			<string>289E1CDC07988D1C3179FFF4F7C8B037</string>
+			<string>E30F108CA60AA949D7990681B86801E9</string>
 			<key>targetProxy</key>
 			<string>45E692F60D9C7130028892EC614EE586</string>
 		</dict>
@@ -1128,6 +994,20 @@
 			<string>MyLogLIb-prefix.pch</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A676E9DF3624DE34B2105FB683E8F65B</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>E0819CD4686834700DA824C1625DEF02</string>
+				<string>CEA2748ABD37FD0177325A6F17472E3A</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
 		</dict>
 		<key>A6D01C447E189042AC34104BB1E23E21</key>
 		<dict>
@@ -1156,21 +1036,6 @@
 			<key>productType</key>
 			<string>com.apple.product-type.framework</string>
 		</dict>
-		<key>A7C6CDB567C11F0A4335F3BC446B6467</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>978BE1BE0CFB2AAADC183C9D645288F1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Classes</string>
-			<key>path</key>
-			<string>Classes</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>AD19ED4C0842D675FDDF076D5EBA4A18</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -1188,7 +1053,7 @@
 		<dict>
 			<key>children</key>
 			<array>
-				<string>32598C3CC84C8EB2245934A03A85FF53</string>
+				<string>7056CB8B2349D3FA6FC42431D53A3B1B</string>
 				<string>6B80AFED9606DC5A4B569269F67AB178</string>
 			</array>
 			<key>isa</key>
@@ -1259,6 +1124,20 @@
 			<key>xcLanguageSpecificationIdentifier</key>
 			<string>xcode.lang.ruby</string>
 		</dict>
+		<key>BAE458C61FD1511095B6586F4A7F108F</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>9C79365FA5CC0B421F7178EEF3E48CEC</string>
+				<string>5E7CB95BBB21CBF76217CE6B5658C1EA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
 		<key>BBC3C7E71378BC9CCB653D6E56C4B79D</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1318,18 +1197,74 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>CB728EBAD155C53E4DB864A785ED2A5D</key>
+		<key>C7E4A812D47474BB28FC57F5D6D39432</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8816D6EF2FF2720BCA91576FE13C4225</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>LSLog.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CEA2748ABD37FD0177325A6F17472E3A</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>2C71C9EF7B1F2D13D3105F4720FBA056</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/MyLogLIb/MyLogLIb-prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/MyLogLIb/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.3</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/MyLogLIb/MyLogLIb.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>PRODUCT_NAME</key>
+				<string>MyLogLIb</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
 		</dict>
 		<key>D155A9405907001FA4D484C72EA90D8C</key>
 		<dict>
@@ -1380,10 +1315,23 @@
 			<string></string>
 			<key>targets</key>
 			<array>
-				<string>289E1CDC07988D1C3179FFF4F7C8B037</string>
+				<string>E30F108CA60AA949D7990681B86801E9</string>
 				<string>8117851C57DE84EDB6A3BB9067D52DAE</string>
 				<string>A6D01C447E189042AC34104BB1E23E21</string>
 			</array>
+		</dict>
+		<key>D4984E4551DC316CB6D65BA473846D04</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>LSLog.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>D8EFC0EC523D58AE44D7253C82D4F6E2</key>
 		<dict>
@@ -1400,13 +1348,6 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>DE7942543DAB7FE61CC79A70E7660B46</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BBC3C7E71378BC9CCB653D6E56C4B79D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
 		<key>E07E5E2CB9EF4C32AA35468F2BB59920</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1419,6 +1360,87 @@
 			<string>Pods-MyLogLIb_Tests-umbrella.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E0819CD4686834700DA824C1625DEF02</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>2C71C9EF7B1F2D13D3105F4720FBA056</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/MyLogLIb/MyLogLIb-prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/MyLogLIb/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.3</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/MyLogLIb/MyLogLIb.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>PRODUCT_NAME</key>
+				<string>MyLogLIb</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>E30F108CA60AA949D7990681B86801E9</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>A676E9DF3624DE34B2105FB683E8F65B</string>
+			<key>buildPhases</key>
+			<array>
+				<string>4B4E5309904A60EDFA7FA654493E16F9</string>
+				<string>6E4BDAA39F915797B747BEB0F4813B87</string>
+				<string>BAE458C61FD1511095B6586F4A7F108F</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>MyLogLIb</string>
+			<key>productName</key>
+			<string>MyLogLIb</string>
+			<key>productReference</key>
+			<string>5335B576DF3C52473FA60CDBB0F51243</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
 		</dict>
 		<key>E3F0B51711818C861C7BD58565929959</key>
 		<dict>
@@ -1442,7 +1464,7 @@
 			<key>proxyType</key>
 			<string>1</string>
 			<key>remoteGlobalIDString</key>
-			<string>289E1CDC07988D1C3179FFF4F7C8B037</string>
+			<string>E30F108CA60AA949D7990681B86801E9</string>
 			<key>remoteInfo</key>
 			<string>MyLogLIb</string>
 		</dict>
@@ -1458,6 +1480,13 @@
 			<string>Pods-MyLogLIb_Tests-frameworks.sh</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E65407E4743A1E8D36368A33D8E4CE70</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BBC3C7E71378BC9CCB653D6E56C4B79D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>E7F0FDBC6F7038570C3FFEAA00C8538A</key>
 		<dict>

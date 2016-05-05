@@ -7,7 +7,7 @@
 //
 
 #import "LSViewController.h"
-#import "LSLog.h"
+#import <MyLogLIb/LSLog.h>
 @interface LSViewController ()
 
 @end
@@ -17,7 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [LSLog log:@"hahahaha"];
+    [LSLog log:@"hahahahah "];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

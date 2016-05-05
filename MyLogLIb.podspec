@@ -10,11 +10,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/MyLogLIb"
+  s.homepage         = "https://github.com/luosai001/MyLog"
 
   s.license          = 'MIT'
   s.author           = { "luosai" => "luosai19910103@163.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/MyLogLIb.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/luosai001/MyLog.git", :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 

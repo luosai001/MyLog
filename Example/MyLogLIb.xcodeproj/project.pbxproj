@@ -23,7 +23,6 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		691D755F53A8E8E903294D20 /* Pods_MyLogLIb_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62B65E2CA29CCE659EC55803 /* Pods_MyLogLIb_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		E01706F01CDB238500FA2CE2 /* LSLog.m in Sources */ = {isa = PBXBuildFile; fileRef = E01706EF1CDB238500FA2CE2 /* LSLog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,8 +64,6 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		BF4B9DDB13BAAE3D68A9FFF0 /* Pods-MyLogLIb_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLogLIb_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyLogLIb_Example/Pods-MyLogLIb_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DA55B6EFA2975F917ACF0F73 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		E01706EE1CDB238500FA2CE2 /* LSLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLog.h; sourceTree = "<group>"; };
-		E01706EF1CDB238500FA2CE2 /* LSLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSLog.m; sourceTree = "<group>"; };
 		F876AB1D884DE00B55965257 /* Pods_MyLogLIb_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyLogLIb_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -159,8 +156,6 @@
 		6003F594195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E01706EE1CDB238500FA2CE2 /* LSLog.h */,
-				E01706EF1CDB238500FA2CE2 /* LSLog.m */,
 				6003F595195388D20070C39A /* MyLogLIb-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
@@ -398,7 +393,6 @@
 				6003F59E195388D20070C39A /* LSAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* LSViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				E01706F01CDB238500FA2CE2 /* LSLog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

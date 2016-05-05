@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "summary": "A short description of MyLogLIb.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/MyLogLIb",
+  "homepage": "https://github.com/luosai001/MyLog",
   "license": "MIT",
   "authors": {
     "luosai": "luosai19910103@163.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/MyLogLIb.git",
+    "git": "https://github.com/luosai001/MyLog.git",
     "tag": "0.1.0"
   },
   "platforms": {
