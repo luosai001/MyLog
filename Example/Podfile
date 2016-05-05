@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MyLogLIb_Example', :exclusive => true do
+  pod 'MyLogLIb', :path => '../'
+end
+
+target 'MyLogLIb_Tests', :exclusive => true do
+  pod 'MyLogLIb', :path => '../'
+
+  
+end
