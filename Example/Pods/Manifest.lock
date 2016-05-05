@@ -1,0 +1,14 @@
+PODS:
+  - MyLogLIb (0.1.0)
+
+DEPENDENCIES:
+  - MyLogLIb (from `../`)
+
+EXTERNAL SOURCES:
+  MyLogLIb:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MyLogLIb: 27019395cdc7251612c50ea6134183bd40391147
+
+COCOAPODS: 0.39.0

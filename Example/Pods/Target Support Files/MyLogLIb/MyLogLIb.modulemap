@@ -1,0 +1,6 @@
+framework module MyLogLIb {
+  umbrella header "MyLogLIb-umbrella.h"
+
+  export *
+  module * { export * }
+}
